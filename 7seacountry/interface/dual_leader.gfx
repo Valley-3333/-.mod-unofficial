@@ -95,6 +95,26 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_AST_7sea"
+		texturefile = "gfx/dual_leaders/cosmetic/AST_7sea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CAN_7sea"
+		texturefile = "gfx/dual_leaders/cosmetic/CAN_7sea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_IND_7sea"
+		texturefile = "gfx/dual_leaders/cosmetic/IND_7sea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SAF_7sea"
+		texturefile = "gfx/dual_leaders/cosmetic/SAF_7sea.dds"
+	}
+
+	spriteType = {
 		name = "GFX_AUH_7sea"
 		texturefile = "gfx/dual_leaders/cosmetic/AUH_7sea.dds"
 	}

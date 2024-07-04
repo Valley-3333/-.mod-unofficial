@@ -96,6 +96,30 @@ defined_text = {
         localization_key = FRA_7sea
 	}
 	text = {
+        trigger = {
+			original_tag = CAN
+        }
+        localization_key = CAN_7sea
+	}
+	text = {
+        trigger = {
+			original_tag = AST
+        }
+        localization_key = AST_7sea
+	}
+	text = {
+        trigger = {
+			original_tag = RAJ
+        }
+        localization_key = IND_7sea
+	}
+	text = {
+        trigger = {
+			original_tag = SAF
+        }
+        localization_key = SAF_7sea
+	}
+	text = {
 		localization_key = DEFAULT_TITLE
 	}
 }
@@ -194,6 +218,30 @@ defined_text = {
 			}
         }
         localization_key = "GFX_FRA_7sea"
+	}
+	text = {
+        trigger = {
+			original_tag = CAN
+        }
+        localization_key = "GFX_CAN_7sea"
+	}
+	text = {
+        trigger = {
+			original_tag = AST
+        }
+        localization_key = "GFX_AST_7sea"
+	}
+	text = {
+        trigger = {
+			original_tag = RAJ
+        }
+        localization_key = "GFX_IND_7sea"
+	}
+	text = {
+        trigger = {
+			original_tag = SAF
+        }
+        localization_key = "GFX_SAF_7sea"
 	}
 	text = {
 		localization_key = "GFX_portrait_bg_blank"
