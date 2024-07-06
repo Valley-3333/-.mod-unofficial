@@ -120,6 +120,12 @@ defined_text = {
         localization_key = SAF_7sea
 	}
 	text = {
+        trigger = {
+			original_tag = BAN
+        }
+        localization_key = BAN_7sea
+	}
+	text = {
 		localization_key = DEFAULT_TITLE
 	}
 }
@@ -242,6 +248,12 @@ defined_text = {
 			original_tag = SAF
         }
         localization_key = "GFX_SAF_7sea"
+	}
+	text = {
+        trigger = {
+			original_tag = BAN
+        }
+        localization_key = "GFX_banham_7sea"
 	}
 	text = {
 		localization_key = "GFX_portrait_bg_blank"
