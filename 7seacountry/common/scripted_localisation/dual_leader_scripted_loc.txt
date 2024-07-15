@@ -284,6 +284,7 @@ defined_text = {
         }
         localization_key = "DESCRIPTION_TEST"
 	}
+
 	text = {
         trigger = {
 			original_tag = FRA
@@ -316,6 +317,73 @@ defined_text = {
         }
         localization_key = FRA_no
 	}
+
+	text = {
+		trigger = {
+			original_tag = ITA
+			has_global_flag = GER_played
+			has_global_flag = FRA_played
+		}
+		localization_key = ITA_fra_ger
+	}
+	text = {
+		trigger = {
+			original_tag = ITA
+			NOT = { has_global_flag = GER_played }
+			has_global_flag = FRA_played
+		}
+		localization_key = ITA_fra
+	}
+	text = {
+		trigger = {
+			original_tag = ITA
+			has_global_flag = GER_played
+			NOT = { has_global_flag = FRA_played }
+		}
+		localization_key = ITA_ger
+	}
+
+	text = {
+        trigger = {
+			original_tag = GER
+			NOT = { has_global_flag = has_war_with_GER }
+			has_global_flag = ITA_played
+        }
+        localization_key = GER_ita
+	}
+	text = {
+        trigger = {
+			original_tag = GER
+			has_global_flag = has_war_with_GER
+			has_global_flag = SOV_played
+        }
+        localization_key = GER_sov_war
+	}
+	text = {
+        trigger = {
+			original_tag = GER
+			has_global_flag = has_war_with_GER
+			NOT = { has_global_flag = SOV_played }
+        }
+        localization_key = has_war_with_GER_tt
+	}
+
+	text = {
+        trigger = {
+			original_tag = ENG
+			has_global_flag = has_war_with_ENG
+        }
+        localization_key = has_war_with_ENG_tt
+	}
+	text = {
+        trigger = {
+			original_tag = ENG
+			NOT = { has_global_flag = has_war_with_ENG }
+        }
+        localization_key = not_has_war_with_ENG_tt
+	}
+
+
 	text = {
         trigger = {
 			original_tag = ENG
