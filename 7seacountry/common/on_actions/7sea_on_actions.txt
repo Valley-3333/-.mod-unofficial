@@ -1,0 +1,71 @@
+on_actions = {
+	on_weekly = {
+    	effect = {
+        	if = {
+            	limit = { 
+					original_tag = ITA
+            	    is_ai = no
+					NOT = {
+						has_global_flag = ITA_played
+					}
+            	}
+				set_global_flag = ITA_played
+        	}
+			else = {
+				clr_global_flag = ITA_played
+			}
+			if = {
+            	limit = { 
+					original_tag = GER
+            	    is_ai = no
+					NOT = {
+						has_global_flag = GER_played
+					}
+            	}
+				set_global_flag = GER_played
+        	}
+			else = {
+				clr_global_flag = GER_played
+			}
+			if = {
+            	limit = { 
+					original_tag = ENG
+            	    is_ai = no
+					NOT = {
+						has_global_flag = ENG_played
+					}
+            	}
+				set_global_flag = ENG_played
+        	}
+			else = {
+				clr_global_flag = ENG_played
+			}
+			if = {
+            	limit = { 
+					original_tag = FRA
+            	    is_ai = no
+					NOT = {
+						has_global_flag = FRA_played
+					}
+            	}
+				set_global_flag = FRA_played
+        	}
+			else = {
+				clr_global_flag = FRA_played
+			}
+			if = {
+            	limit = { 
+					original_tag = SOV
+            	    is_ai = no
+					NOT = {
+						has_global_flag = SOV_played
+					}
+            	}
+				set_global_flag = SOV_played
+        	}
+			else = {
+				clr_global_flag = SOV_played
+			}
+    	}
+	}
+}

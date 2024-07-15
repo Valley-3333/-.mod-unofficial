@@ -266,6 +266,59 @@ defined_text = {
     text = {
         trigger = {
 			original_tag = ENG
+			has_country_flag = aaa
+        }
+        localization_key = "DESCRIPTION_TEST"
+	}
+	text = {
+        trigger = {
+			original_tag = ITA
+			has_country_flag = aaa
+        }
+        localization_key = "DESCRIPTION_TEST"
+	}
+	text = {
+        trigger = {
+			original_tag = GER
+			has_country_flag = aaa
+        }
+        localization_key = "DESCRIPTION_TEST"
+	}
+	text = {
+        trigger = {
+			original_tag = FRA
+			has_global_flag = ITA_played
+			has_global_flag = ENG_played
+        }
+        localization_key = FRA_eng_ita
+	}
+	text = {
+        trigger = {
+			original_tag = FRA
+			NOT = { has_global_flag = ITA_played }
+			has_global_flag = ENG_played
+        }
+        localization_key = FRA_eng
+	}
+	text = {
+        trigger = {
+			original_tag = FRA
+			has_global_flag = ITA_played
+			NOT = { has_global_flag = ENG_played }
+        }
+        localization_key = FRA_ita
+	}
+	text = {
+        trigger = {
+			original_tag = FRA
+			NOT = { has_global_flag = ITA_played }
+			NOT = { has_global_flag = ENG_played }
+        }
+        localization_key = FRA_no
+	}
+	text = {
+        trigger = {
+			original_tag = ENG
 			ENG = {
 				has_idea = george_v
 			}
