@@ -262,28 +262,6 @@ defined_text = {
 
 defined_text = {
     name = GetDualLeaderDesc
-    
-    text = {
-        trigger = {
-			original_tag = ENG
-			has_country_flag = aaa
-        }
-        localization_key = "DESCRIPTION_TEST"
-	}
-	text = {
-        trigger = {
-			original_tag = ITA
-			has_country_flag = aaa
-        }
-        localization_key = "DESCRIPTION_TEST"
-	}
-	text = {
-        trigger = {
-			original_tag = GER
-			has_country_flag = aaa
-        }
-        localization_key = "DESCRIPTION_TEST"
-	}
 
 	text = {
         trigger = {
