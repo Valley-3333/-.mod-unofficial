@@ -347,6 +347,7 @@ defined_text = {
         trigger = {
 			original_tag = GER
 			NOT = { has_global_flag = has_war_with_GER }
+			NOT = { has_war_with = ITA }
 			has_global_flag = ITA_played
         }
         localization_key = GER_ita
@@ -355,6 +356,7 @@ defined_text = {
         trigger = {
 			original_tag = GER
 			has_global_flag = has_war_with_GER
+			has_war_with = SOV
 			has_global_flag = SOV_played
         }
         localization_key = GER_sov_war
@@ -363,7 +365,7 @@ defined_text = {
         trigger = {
 			original_tag = GER
 			has_global_flag = has_war_with_GER
-			NOT = { has_global_flag = SOV_played }
+			NOR = { has_global_flag = SOV_played has_war_with = SOV}
         }
         localization_key = has_war_with_GER_tt
 	}
@@ -381,17 +383,6 @@ defined_text = {
 			NOT = { has_global_flag = has_war_with_ENG }
         }
         localization_key = not_has_war_with_ENG_tt
-	}
-
-
-	text = {
-        trigger = {
-			original_tag = ENG
-			ENG = {
-				has_idea = george_v
-			}
-        }
-        localization_key = "DESCRIPTION_TEST"
 	}
 }
 
