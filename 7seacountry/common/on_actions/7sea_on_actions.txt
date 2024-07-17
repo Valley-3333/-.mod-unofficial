@@ -105,4 +105,135 @@ on_actions = {
 			}
     	}
 	}
+
+	on_weekly_ITA = {
+    	effect = {
+        	if = {
+            	limit = { 
+					original_tag = ITA
+            	    is_ai = no
+					NOT = {
+						has_global_flag = ITA_played
+					}
+            	}
+				set_global_flag = ITA_played
+        	}
+			else = {
+				clr_global_flag = ITA_played
+			}
+		}
+	}
+
+	on_weekly_GER = {
+    	effect = {
+			if = {
+            	limit = { 
+            	    is_ai = no
+					NOT = {
+						has_global_flag = GER_played
+					}
+            	}
+				set_global_flag = GER_played
+        	}
+			else = {
+				clr_global_flag = GER_played
+			}
+    	}
+	}
+
+	on_weekly_ENG = {
+    	effect = {
+			if = {
+            	limit = { 
+					original_tag = ENG
+            	    is_ai = no
+					NOT = {
+						has_global_flag = ENG_played
+					}
+            	}
+				set_global_flag = ENG_played
+        	}
+			else = {
+				clr_global_flag = ENG_played
+			}
+    	}
+	}
+
+	on_weekly_FRA = {
+    	effect = {
+			if = {
+            	limit = { 
+					original_tag = FRA
+            	    is_ai = no
+					NOT = {
+						has_global_flag = FRA_played
+					}
+            	}
+				set_global_flag = FRA_played
+        	}
+			else = {
+				clr_global_flag = FRA_played
+			}
+    	}
+	}
+
+	on_weekly_SOV = {
+    	effect = {
+			if = {
+            	limit = { 
+					original_tag = SOV
+            	    is_ai = no
+					NOT = {
+						has_global_flag = SOV_played
+					}
+            	}
+				set_global_flag = SOV_played
+        	}
+			else = {
+				clr_global_flag = SOV_played
+			}
+    	}
+	}
+
+	on_weekly = {
+    	effect = {
+			if = {
+				limit = {
+					any_country = {
+						is_ai = no
+						has_war_with = GER
+					}
+					NOT = {
+						has_global_flag = has_war_with_GER
+					}
+				}
+				set_global_flag = has_war_with_GER
+			}
+			else_if ={
+				limit = {
+					has_global_flag = has_war_with_GER
+				}
+				clr_global_flag = has_war_with_GER
+			}
+
+			if = {
+				limit = {
+					any_country = {
+						is_ai = no
+						has_war_with = ENG
+					}
+					NOT = {
+						has_global_flag = has_war_with_ENG
+					}
+				}
+				set_global_flag = has_war_with_ENG
+			}
+			else_if ={
+				limit = {
+					has_global_flag = has_war_with_ENG
+				}
+				clr_global_flag = has_war_with_ENG
+			}
+    	}
+	}
 }
