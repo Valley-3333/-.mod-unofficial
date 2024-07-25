@@ -273,10 +273,9 @@ spriteTypes = {
 	}
 
 	spriteType = {
-                name = "GFX_volunteers_entry_bg"
-                textureFile = "gfx/interface/volunteers_entry_bg.dds"
+		name = "GFX_send_units_entry_bg"
+		textureFile = "gfx/interface/send_units_entry_bg.dds"
                 noOfFrames = 2
- #               effectFile = "gfx/FX/buttonstate_onlydisable.lua"
         }
 
 	spriteType = {
@@ -422,16 +421,6 @@ spriteTypes = {
 		name = "GFX_relation_expeditionaries_receiver"
 		textureFile = "gfx/interface/relations/relation_expeditionary_force_receiver.dds"
 	}		
-	
-	spriteType = {
-		name = "GFX_relation_air_volunteers_receiver"
-		textureFile = "gfx/interface/relations/relation_air_volunteers_receiver.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_relation_air_volunteers_initiator"
-		textureFile = "gfx/interface/relations/relation_air_volunteers_initiator.dds"
-	}
 	
 	spriteType = {
 		name = "GFX_relation_volunteers_receiver"
